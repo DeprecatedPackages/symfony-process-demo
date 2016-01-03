@@ -1,0 +1,19 @@
+{
+    "name": "ondram/symfony-process-demo",
+    "description": "Symfony/Process component demo for Zdrojak.cz article",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ondřej Machulda",
+            "email": "ondrej.machulda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/process": "^3.0"
+    }
+}
