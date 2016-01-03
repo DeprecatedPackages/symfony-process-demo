@@ -12,6 +12,7 @@ $console->addCommands(
     [
         new App\Command\WebshotSimpleCommand(),
         new App\Command\WebshotProcessBuilderCommand(),
+        new App\Command\WebshotMultipleCommand(),
     ]
 );
 $console->run();
