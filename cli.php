@@ -11,6 +11,7 @@ $console = new Application('Symfony Console demo for Zdroják.cz', '4.5.6');
 $console->addCommands(
     [
         new App\Command\WebshotSimpleCommand(),
+        new App\Command\WebshotProcessBuilderCommand(),
     ]
 );
 $console->run();
